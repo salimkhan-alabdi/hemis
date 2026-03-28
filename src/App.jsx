@@ -3,6 +3,7 @@ import { questions as internat } from "./data/questions_internat.js";
 import { questions as monetar } from "./data/questions_monetar.js";
 import { questions as commerce } from "./data/commerce_banks.js";
 import { questions as audit } from "./data/audit.js";
+import { questions as market } from "./data/financemarket.js";
 
 // ---------- утилиты ----------
 function shuffleArray(array) {
@@ -215,6 +216,7 @@ export default function App() {
     { name: "Монетарная политика", data: monetar },
     { name: "Коммерческие банки", data: commerce },
     { name: "Аудит", data: audit },
+    { name: "Финансовые рынки", data: market },
   ];
 
   if (selected) {
